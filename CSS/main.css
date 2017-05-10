@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+
+#Wrapper{
+    width: 500px;
+    margin: 200px auto;
+}
+
+#Message{
+    color: black;
+    font: 16px Tahoma;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#Form{
+    color: black;
+    text-align: center;
+    padding: 0;
+}
+
+.TextField{
+    width: 247px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 16px;
+    background-color: white;
+}
+
+.Button{
+    color: black;
+    width: 498px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: white;
+    margin-bottom: 5px;
+    transition: background-color .5s, color .5s, border-radius .5s;
+}
+
+.Button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.Button:active{
+    background-color: black;
+    position: relative;
+    top: 1px;
+}
+
+button, input[type="submit"]{
+    outline: none;
+}
+
+
+/* Input placeholder */
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    font-family: monospace;
+    font-size: 16px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-family: monospace;
+    font-size: 16px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-family: monospace;
+    font-size: 16px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: monospace;
+    font-size: 16px;
+}

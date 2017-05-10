@@ -1,8 +1,10 @@
 *{
     color: lime;
     background-color: black;
+    background-image: url("images/matrix.gif");
     border-color: lime;
     font-family: "Courier New", Courier, monospace;
+    outline: none;
 }
 
 #answerField{

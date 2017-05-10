@@ -24,7 +24,7 @@ function puzzle($number){
         break;
         case 1:
             for($i = 1; $i < 5; $i++){
-                ${"ran" . $i} = rand(10,50);
+                ${"ran" . $i} = rand(10,80);
             }
 
             $num21 = $ran1 + $ran2;
