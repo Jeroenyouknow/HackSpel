@@ -27,3 +27,21 @@ li a:hover:not(.active) {
 .active {
     background-color: #af0600;
 }
+
+/*Div style guide*/
+#cameraSystem{
+    background-image: url("../Afbeeldingen/kamer.JPG");
+    background-repeat: no-repeat;
+    width:  49%;
+    height: 50%;
+}
+/*Camera On style*/
+
+button#camera1_On{
+    float: right;
+}
+
+/*Camera Off style*/
+button#camera1_Off{
+    float: right;
+}

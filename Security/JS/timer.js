@@ -20,7 +20,7 @@ var x = setInterval(function() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-// Display the result in the element with id="demo"
+// Display the result in the element with id="Tijd over"
     document.getElementById("Tijd Over").innerHTML = "Je wordt over: " + minutes + "m " + seconds + "s" + " weer uitgelogd voor veiligheidsredenen";
 
 // If the count down is finished, write some text
@@ -34,6 +34,4 @@ var x = setInterval(function() {
 function Timedone() {
     document.getElementById("Tijd Over").innerHTML = "Je bent uitgelogd!";
     window.location.href = "../index.php";
-}/**
- * Created by jeroenyouknow on 08/05/2017.
- */
+}
