@@ -37,7 +37,7 @@ $num41 = $num31 + $num32;
     </head>
     <body>
 
-        <!-- Strats with * * * *, numbers put in as puzzle progresses -->
+        <!-- Starts with * * * *, numbers put in as puzzle progresses -->
         <div id="code">
 
         <?php

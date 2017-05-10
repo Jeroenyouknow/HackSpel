@@ -2,7 +2,7 @@
 function startHack() {
     alert('Je wordt in het mainframe geplaats');
     alert('Je bent in het mainframe geplaats, ik stuur je door naar de pagina! Succes');
-    window.location.href = "https://stud.hosted.hr.nl/0924208/pyramidtest/";
+    window.location.href = "mainframe/index.php";
 }
 
 function codeCorrectGerard(){
@@ -20,8 +20,3 @@ function codeWrong(){
     window.location.href = "index.php";
 
 }
-
-
-
-
-

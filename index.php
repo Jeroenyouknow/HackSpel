@@ -40,7 +40,7 @@
     <div id = "Hack">
 
     <button onclick="setTimeout(startHack, 3000);">Go into the Mainframe</button>
-    <script src="JS/game_2.js"></script>
+    <script src="JS/main.js"></script>
         <script>console.log(code)</script>
 
 </div>
