@@ -21,7 +21,7 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 // Display the result in the element with id="demo"
-    document.getElementById("Tijd Over").innerHTML = "Het spel begint over: " + minutes + "m " + seconds + "s ";
+    document.getElementById("Tijd Over").innerHTML = "Je wordt over: " + minutes + "m " + seconds + "s" + " weer uitgelogd voor veiligheidsredenen";
 
 // If the count down is finished, write some text
     if (distance < 0) {
@@ -32,8 +32,8 @@ var x = setInterval(function() {
 
 
 function Timedone() {
-    document.getElementById("Tijd Over").innerHTML = "Je hebt het niet op tijd gehaald...!";
-    document.getElementById("Bericht").innerHTML = "Ah oh je hebt het niet gehaald wat nu....?";
+    document.getElementById("Tijd Over").innerHTML = "Je bent uitgelogd!";
+    window.location.href = "../index.php";
 }/**
  * Created by jeroenyouknow on 08/05/2017.
  */

@@ -9,11 +9,6 @@
     </head>
 
 <body>
-   <div id = "Timer">
-    <script src="JS/timer.js"></script>
-    <!-- Display the countdown timer in an element -->
-    <p id="Tijd Over"></p>
-</div>
 
     <div id = "Message">
         <p id="Bericht">
@@ -24,7 +19,7 @@
         </p>
     </div>
 
-   <div id = "form" >
+    <div id = "form" >
        <form action="check.php" method = "post">
            Naam:<br>
            <input type="text" name="naam" value="">
