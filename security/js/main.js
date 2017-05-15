@@ -1,17 +1,21 @@
 //Load the window and the start function welcomeGerard
-window.addEventListener('load', welcomeGerard);
+window.addEventListener('load', startGame);
+
+function startGame() {
+    document.getElementById('camera1_Off').style.visibility = 'hidden';
+    timer();
+
+}
 
 function welcomeGerard() {
     alert("Welkom Gerard, bij het Antikraak security Systeem (ASS). Boven staat een timer met de tijd voordat je wordt uitgelogd!");
-    document.getElementById('camera1_Off').style.visibility = 'hidden';
-    timer();
 }
 
 function timer() {
     //Get the current Time
     var now = new Date().getTime();
 //Add to the current time 32000 seconds from the start
-    var setDate = (now + 3200000);
+    var setDate = (now + 32000);
 
 
 // Set the date we're counting down to
@@ -31,7 +35,7 @@ function timer() {
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 // Display the result in the element with id="Tijd over"
-        document.getElementById("Tijd Over").innerHTML = "Je wordt over: " + minutes + "m " + seconds + "s" + " weer uitgelogd voor veiligheidsredenen";
+        document.getElementById("Tijd Over").innerHTML = "Je wordt over: " + minutes + "minuten " + seconds + "seconden" + " weer uitgelogd voor veiligheidsredenen";
 
 // If the count down is finished, write some text
         if (distance < 0) {
@@ -46,19 +50,21 @@ function timer() {
         window.location.href = "../index.php";
     }
 
+    welcomeGerard();
+
 }
 
 function cameraUitgeschakeld() {
-    alert("De camera is succesvol uitgeschakeld");
+    // alert("De camera is succesvol uitgeschakeld");
     document.getElementById('camera1_On').style.visibility = 'hidden';
     document.getElementById('camera1_Off').style.visibility = 'visible';
-    document.getElementById('Foto').src='afbeeldingen/static.gif';
+    document.getElementById('Foto').src = 'afbeeldingen/static.gif';
 }
 
 function cameraIngeschakeld() {
-    alert("De camera is succesvol ingeschakeld");
+    // alert("De camera is succesvol ingeschakeld");
     document.getElementById('camera1_Off').style.visibility = 'hidden';
     document.getElementById('camera1_On').style.visibility = 'visible';
-    document.getElementById('Foto').src='afbeeldingen/kamer.JPG';
+    document.getElementById('Foto').src = 'afbeeldingen/kamer.JPG';
 }
 

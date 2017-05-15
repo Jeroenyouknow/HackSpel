@@ -29,11 +29,11 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #000000;
-    color:white;
+    color: white;
 }
 
 /*Image style*/
-#Beeld{
+#Beeld {
     margin-top: 0%;
     margin-bottom: 0%;
     margin-right: 20%;
@@ -43,7 +43,7 @@ li a:hover:not(.active) {
 }
 
 /*Div style guide*/
-#CameraSystem{
+#CameraSystem {
     margin-top: 0%;
     margin-bottom: 100%;
     margin-right: 25%;
@@ -52,7 +52,7 @@ li a:hover:not(.active) {
     border-color: black;
 }
 
-#CameraButton{
+#CameraButton {
     width: 100%;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -61,7 +61,7 @@ li a:hover:not(.active) {
 
 }
 
-#CameraBeeld{
+#CameraBeeld {
     /*width: 100%;*/
     margin-top: 0%;
     margin-bottom: 0%;
@@ -71,7 +71,7 @@ li a:hover:not(.active) {
 }
 
 /*Button Style*/
-.Button{
+.Button {
     display: inline-block;
     color: black;
     width: 498px;
@@ -81,19 +81,19 @@ li a:hover:not(.active) {
     transition: background-color .5s, color .5s, border-radius .5s;
 }
 
-.Button:hover{
+.Button:hover {
     background-color: black;
     color: white;
     border-radius: 15px;
 }
 
-.Button:active{
+.Button:active {
     background-color: black;
     position: relative;
     top: 1px;
 }
 
-button, input[type="submit"]{
+button, input[type="submit"] {
     outline: none;
 }
 
