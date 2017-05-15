@@ -4,8 +4,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="shortcut icon" href="Afbeeldingen/logo.jpg" type="image/x-icon">
-        <link rel="stylesheet" href="CSS/main.css" type="text/css">
+        <link rel="shortcut icon" href="afbeeldingen/logo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
         <title>Antikraak B.V Voor uw beveiliging</title>
     </head>
 
@@ -30,7 +30,7 @@
         </form>
 
         <button class="Button" onclick="toMainframe();">Go into the Mainframe</button>
-        <script src="JS/main.js"></script>
+        <script src="js/main.js"></script>
         <script>console.log(code)</script>
     </div>
 </div>

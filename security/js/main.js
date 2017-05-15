@@ -2,7 +2,7 @@
 window.addEventListener('load', welcomeGerard);
 
 function welcomeGerard() {
-    alert("Welkom Gerard, bij het Antikraak Security Systeem (ASS). Boven staat een timer met de tijd voordat je wordt uitgelogd!");
+    alert("Welkom Gerard, bij het Antikraak security Systeem (ASS). Boven staat een timer met de tijd voordat je wordt uitgelogd!");
     document.getElementById('camera1_Off').style.visibility = 'hidden';
     timer();
 }
@@ -52,13 +52,13 @@ function cameraUitgeschakeld() {
     alert("De camera is succesvol uitgeschakeld");
     document.getElementById('camera1_On').style.visibility = 'hidden';
     document.getElementById('camera1_Off').style.visibility = 'visible';
-    document.getElementById('Foto').src='Afbeeldingen/static.gif';
+    document.getElementById('Foto').src='afbeeldingen/static.gif';
 }
 
 function cameraIngeschakeld() {
     alert("De camera is succesvol ingeschakeld");
     document.getElementById('camera1_Off').style.visibility = 'hidden';
     document.getElementById('camera1_On').style.visibility = 'visible';
-    document.getElementById('Foto').src='Afbeeldingen/Kamer.JPG';
+    document.getElementById('Foto').src='afbeeldingen/kamer.JPG';
 }
 

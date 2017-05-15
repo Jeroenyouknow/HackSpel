@@ -13,7 +13,7 @@ if ($naam === 'Henk' & $code === '1234'){
 
 //Gerard Credentials name: Gerard Code: 7369
  else if ($naam === 'Gerard' & $code === '7369'){
-     header("Refresh:0; url=Security/index.php");
+     header("Refresh:0; url=security/index.php");
 }
 
 

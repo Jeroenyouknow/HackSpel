@@ -3,11 +3,11 @@
 
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
 <body>
-<script src="JS/main.js"></script>
+<script src="js/main.js"></script>
 
 <div id="menu">
     <ul>
@@ -40,7 +40,7 @@
     </div>
 
     <div id="CameraBeeld">
-        <img id="Foto" src="Afbeeldingen/kamer.JPG">
+        <img id="Foto" src="afbeeldingen/kamer.JPG">
 
     </div>
 </div>
