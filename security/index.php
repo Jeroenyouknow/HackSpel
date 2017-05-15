@@ -1,6 +1,3 @@
-<?php
-?>
-
 <html>
 <head>
     <meta charset="UTF-8">
@@ -24,7 +21,7 @@
 
 <div id="WelcomeMessage">
     <!-- Display the countdown timer in an element -->
-    <h1>Welkom, Gerard</h1>
+    <h2>Welkom Gerard, bij het Antikraak security Systeem (ASS). Boven staat een timer met de tijd voordat je wordt uitgelogd!</h2>
     <p id="Tijd Over">Je wordt over: 0 minuten en 30 seconden weer uitgelogd voor veiligheidsredenen</p>
 </div>
 
@@ -52,4 +49,3 @@
 </body>
 
 </html>
-

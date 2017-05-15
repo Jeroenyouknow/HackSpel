@@ -8,7 +8,7 @@ function startGame() {
 }
 
 function welcomeGerard() {
-    alert("Welkom Gerard, bij het Antikraak security Systeem (ASS). Boven staat een timer met de tijd voordat je wordt uitgelogd!");
+    console.log("Het programma is succevol gestart en geladen");
 }
 
 function timer() {
@@ -35,7 +35,7 @@ function timer() {
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 // Display the result in the element with id="Tijd over"
-        document.getElementById("Tijd Over").innerHTML = "Je wordt over: " + minutes + "minuten " + seconds + "seconden" + " weer uitgelogd voor veiligheidsredenen";
+        document.getElementById("Tijd Over").innerHTML = "Je wordt over: " + minutes + " minuten en " + seconds + " seconden" + " weer uitgelogd voor veiligheidsredenen";
 
 // If the count down is finished, write some text
         if (distance < 0) {
@@ -59,6 +59,7 @@ function cameraUitgeschakeld() {
     document.getElementById('camera1_On').style.visibility = 'hidden';
     document.getElementById('camera1_Off').style.visibility = 'visible';
     document.getElementById('Foto').src = 'afbeeldingen/static.gif';
+    console.log("De camera is uitgezet");
 }
 
 function cameraIngeschakeld() {
@@ -66,5 +67,6 @@ function cameraIngeschakeld() {
     document.getElementById('camera1_Off').style.visibility = 'hidden';
     document.getElementById('camera1_On').style.visibility = 'visible';
     document.getElementById('Foto').src = 'afbeeldingen/kamer.JPG';
+    console.log("TDe camera is weer aangezet");
 }
 
