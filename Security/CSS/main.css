@@ -34,29 +34,50 @@ li a:hover:not(.active) {
 
 /*Image style*/
 #Beeld{
-  float: left;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 20%;
+    margin-left: 20%;
     width: 100%;
     height: 100%;
 }
 
 /*Div style guide*/
-#cameraSystem{
-    padding: 0%;
-    margin: 25%;
+#CameraSystem{
+    margin-top: 0%;
+    margin-bottom: 100%;
+    margin-right: 25%;
+    margin-left: 25%;
     border-style: solid;
     border-color: black;
+}
+
+#CameraButton{
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    margin-left: 15%;
+
+}
+
+#CameraBeeld{
+    /*width: 100%;*/
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 5%;
+    margin-left: 5%;
+
 }
 
 /*Button Style*/
 .Button{
     display: inline-block;
-    float: right;
     color: black;
     width: 498px;
     height: 30px;
     border: 1px solid black;
     background-color: white;
-    margin-bottom: 5px;
     transition: background-color .5s, color .5s, border-radius .5s;
 }
 

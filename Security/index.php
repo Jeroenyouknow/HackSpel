@@ -29,12 +29,12 @@
 
         <div id="camera1_On">
             <button id="camera1_On" class="button" style="vertical-align:middle" onclick="cameraUitgeschakeld()" ;>
-                <span>Inschakele </span>
+                <span>Camera Uitschakelen </span>
         </div>
 
         <div id="camera1_Off">
             <button id="camera1_Off" class="button" style="vertical-align:middle" onclick="cameraIngeschakeld()" ;>
-                <span>Hover </span>
+                <span>Camera Inschakelen </span>
         </div>
 
     </div>
