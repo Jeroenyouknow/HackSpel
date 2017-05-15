@@ -42,7 +42,7 @@ function timer() {
 
 
     function Timedone() {
-        document.getElementById("Tijd Over").innerHTML = "Je bent uitgelogd!";
+        alert("Voor veiligheidsoverwegingen ben je nu uitgelogd!");
         window.location.href = "../index.php";
     }
 
@@ -61,3 +61,4 @@ function cameraIngeschakeld() {
     document.getElementById('camera1_On').style.visibility = 'visible';
     document.getElementById('Foto').src='Afbeeldingen/Kamer.JPG';
 }
+

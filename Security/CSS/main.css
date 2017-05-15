@@ -4,7 +4,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #d70b00;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: black
+
 }
 
 li {
@@ -14,74 +17,63 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 5% 20%;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #c60600;
+    background-color: #e1e9f1;
 }
 
 .active {
-    background-color: #af0600;
+    background-color: #000000;
+    color:white;
 }
 
-
+/*Image style*/
 #Beeld{
   float: left;
-    width: 10%;
-    height: 10%;
+    width: 100%;
+    height: 100%;
 }
-
 
 /*Div style guide*/
 #cameraSystem{
-    background-repeat: no-repeat;
-    width:  49%;
-    height: 50%;
+    padding: 0%;
+    margin: 25%;
+    border-style: solid;
+    border-color: black;
 }
 
 /*Button Style*/
-.button {
+.Button{
     display: inline-block;
-    border-radius: 4px;
-    background-color: #f4511e;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
+    float: right;
+    color: black;
+    width: 498px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: white;
+    margin-bottom: 5px;
+    transition: background-color .5s, color .5s, border-radius .5s;
 }
 
-.button span {
-    cursor: pointer;
-    display: inline-block;
+.Button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.Button:active{
+    background-color: black;
     position: relative;
-    transition: 0.5s;
+    top: 1px;
 }
 
-.button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-
-.button:hover span {
-    padding-right: 25px;
-}
-
-.button:hover span:after {
-    opacity: 1;
-    right: 0;
+button, input[type="submit"]{
+    outline: none;
 }
 
 
