@@ -24,14 +24,19 @@
     <p id="Tijd Over"></p>
 </div>
 
+<div id="Beeld">
+    <img id="Foto" src="Afbeeldingen/kamer.JPG">
+
+</div>
+
 <div id="cameraSystem">
 
     <div id="camera1_On">
-        <button id="camera1_On" onclick="cameraUitgeschakeld();">Camera 1</button>
+        <button id="camera1_On" class="button" style="vertical-align:middle" onclick="cameraUitgeschakeld()";><span>Inschakele </span>
     </div>
 
     <div id="camera1_Off">
-        <button id="camera1_Off" onclick="cameraIngeschakeld();" style="hidden">Camera 1(uitgeschakeld)</button>
+        <button id="camera1_Off" class="button" style="vertical-align:middle" onclick="cameraIngeschakeld()";><span>Hover </span>
     </div>
 
 </div>

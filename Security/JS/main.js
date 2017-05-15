@@ -52,10 +52,12 @@ function cameraUitgeschakeld() {
     alert("De camera is succesvol uitgeschakeld");
     document.getElementById('camera1_On').style.visibility = 'hidden';
     document.getElementById('camera1_Off').style.visibility = 'visible';
+    document.getElementById('Foto').src='Afbeeldingen/static.gif';
 }
 
 function cameraIngeschakeld() {
     alert("De camera is succesvol ingeschakeld");
     document.getElementById('camera1_Off').style.visibility = 'hidden';
     document.getElementById('camera1_On').style.visibility = 'visible';
+    document.getElementById('Foto').src='Afbeeldingen/Kamer.JPG';
 }
