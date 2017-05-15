@@ -1,8 +1,15 @@
 //Load the window and the start function welcomeGerard
 window.addEventListener('load', startGame);
 
+window.status = 1;
+
 function startGame() {
-    document.getElementById('camera1_Off').style.visibility = 'hidden';
+
+    var button = document.getElementById("cameraButton");
+    button.addEventListener("click", function () {
+        toggleCamera();
+    });
+
     timer();
 
 }
@@ -54,19 +61,19 @@ function timer() {
 
 }
 
-function cameraUitgeschakeld() {
-    // alert("De camera is succesvol uitgeschakeld");
-    document.getElementById('camera1_On').style.visibility = 'hidden';
-    document.getElementById('camera1_Off').style.visibility = 'visible';
-    document.getElementById('Foto').src = 'afbeeldingen/static.gif';
-    console.log("De camera is uitgezet");
-}
+function toggleCamera() {
 
-function cameraIngeschakeld() {
-    // alert("De camera is succesvol ingeschakeld");
-    document.getElementById('camera1_Off').style.visibility = 'hidden';
-    document.getElementById('camera1_On').style.visibility = 'visible';
-    document.getElementById('Foto').src = 'afbeeldingen/kamer.JPG';
-    console.log("TDe camera is weer aangezet");
-}
+    console.log("toggle status is " + window.status);
 
+    window.status *= -1;
+
+    console.log("de status is nu " + window.status);
+
+    if (window.status == 1) {
+        document.getElementById('Foto').src = 'afbeeldingen/kamer.JPG';
+    } else {
+        document.getElementById('Foto').src = 'afbeeldingen/static.gif';
+    }
+
+
+}

@@ -21,21 +21,16 @@
 
 <div id="WelcomeMessage">
     <!-- Display the countdown timer in an element -->
-    <h2>Welkom Gerard, bij het Antikraak security Systeem (ASS). Boven staat een timer met de tijd voordat je wordt uitgelogd!</h2>
+    <h2>Welkom Gerard, bij het Antikraak security Systeem (ASS). Boven staat een timer met de tijd voordat je wordt
+        uitgelogd!</h2>
     <p id="Tijd Over">Je wordt over: 0 minuten en 30 seconden weer uitgelogd voor veiligheidsredenen</p>
 </div>
 
 <div id="CameraSystem">
     <div id="CameraButton">
-
         <div id="camera1_On">
-            <button id="camera1_On" class="button" style="vertical-align:middle" onclick="cameraUitgeschakeld()" ;>
-                <span>Camera Uitschakelen </span>
-        </div>
-
-        <div id="camera1_Off">
-            <button id="camera1_Off" class="button" style="vertical-align:middle" onclick="cameraIngeschakeld()" ;>
-                <span>Camera Inschakelen </span>
+            <button id="cameraButton" class="button" style="vertical-align:middle">
+                <span>Camera 1 </span>
         </div>
 
     </div>
