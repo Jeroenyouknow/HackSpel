@@ -29,7 +29,7 @@
            <input type="submit" value="Login op het Systeem" class="Button">
         </form>
 
-        <button class="Button" onclick="toMainframe();">Go into the Mainframe</button>
+        <button class="Button Mainframe" onclick="toMainframe();">Code vergeten?</button>
         <script src="js/main.js"></script>
         <script>console.log(code)</script>
     </div>
