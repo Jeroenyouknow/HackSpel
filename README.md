@@ -23,7 +23,7 @@ Credits to Jeroen Huiskes & Perry Jasen
 
 EXTRA
 
-Login name: Gerard  
+Login name: Gerard or gerard (both work)  
 Code: 7369
 
 Have Fun!
