@@ -6,6 +6,7 @@
         <meta charset="UTF-8">
         <link rel="shortcut icon" href="afbeeldingen/logo.jpg" type="image/x-icon">
         <link rel="stylesheet" href="css/main.css" type="text/css">
+        <head><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script></head>
         <title>Antikraak B.V Voor uw beveiliging</title>
     </head>
 
@@ -32,9 +33,9 @@
         <script src="js/main.js"></script>
         <script src="checkFile.js"></script>
         <script type="text/javascript">
-        window.setInterval(function(){
-            checkFile();
-        }, 50);
+            window.setInterval(function(){
+                checkFile();
+            }, 50);
         </script>
     </div>
 </div>
