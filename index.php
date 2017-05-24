@@ -1,11 +1,11 @@
-
+<?php
+?>
 
 <html>
     <head>
         <meta charset="UTF-8">
         <link rel="shortcut icon" href="afbeeldingen/logo.jpg" type="image/x-icon">
         <link rel="stylesheet" href="css/main.css" type="text/css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <title>Antikraak B.V Voor uw beveiliging</title>
     </head>
 
@@ -29,16 +29,13 @@
            <input type="submit" value="Login op het Systeem" class="Button">
         </form>
 
-
-        <script src="checkFile.js"></script>
         <script src="js/main.js"></script>
-
+        <script src="checkFile.js"></script>
         <script type="text/javascript">
         window.setInterval(function(){
             checkFile();
         }, 50);
         </script>
-
     </div>
 </div>
 
