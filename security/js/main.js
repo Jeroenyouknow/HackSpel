@@ -1,9 +1,14 @@
 //Load the window and the start function welcomeGerard
 window.addEventListener('load', startGame);
 
-window.status = 1;
 
 function startGame() {
+
+    if (localStorage.getItem('toggle') === '1') {
+        document.getElementById('Foto').src = 'afbeeldingen/kamer.JPG';
+    } else {
+        document.getElementById('Foto').src = 'afbeeldingen/static.gif';
+    }
 
     var button = document.getElementById("cameraButton");
     button.addEventListener("click", function () {
@@ -22,7 +27,7 @@ function timer() {
     //Get the current Time
     var now = new Date().getTime();
 //Add to the current time 32000 seconds from the start
-    var setDate = (now + 32000);
+    var setDate = (now + 3200000);
 
 
 // Set the date we're counting down to
@@ -63,6 +68,12 @@ function timer() {
 
 function toggleCamera() {
 
+    var currentToggle = localStorage.getItem('toggle');
+
+    window.status = currentToggle;
+
+    console.log(currentToggle);
+
     console.log("toggle status is " + window.status);
 
     window.status *= -1;
@@ -71,9 +82,9 @@ function toggleCamera() {
 
     if (window.status == 1) {
         document.getElementById('Foto').src = 'afbeeldingen/kamer.JPG';
+        localStorage.setItem('toggle', '1');
     } else {
         document.getElementById('Foto').src = 'afbeeldingen/static.gif';
+        localStorage.setItem('toggle', '-1');
     }
-
-
 }

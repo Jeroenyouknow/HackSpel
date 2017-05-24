@@ -1,5 +1,8 @@
 <?php
 
+//Status
+$logged_in = false;
+
 //Variables from index.php
 $naam = $_POST['naam'];
 $code = $_POST['code'];
@@ -16,12 +19,17 @@ if ($naam === 'Henk' & $code === '1234'){
      header("Refresh:0; url=security/index.php");
 }
 
+ else if ($naam === 'gerard' & $code === '7369'){
+     header("Refresh:0; url=security/index.php");
+ }
+
 
 
 //Not Henk or Gerard credentials are logged in
 else {
     header('Refresh: 5; url=index.php');
     echo 'Code is fout je wordt weer doorgestuurd. Je hebt toch wel eerst geprobeerd het mainframe binnen te gaan!';
+
 }
 
 ?>
