@@ -28,6 +28,7 @@
            <input class="TextField" type="text" name="code" value="" placeholder="Code">
            <br><br>
            <input type="submit" value="Login op het Systeem" class="Button">
+           <button type="button" class="Button Mainframe" style="display: none;"></button>
         </form>
 
         <script src="js/main.js"></script>
