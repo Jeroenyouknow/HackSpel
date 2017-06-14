@@ -19,13 +19,13 @@ function showCode(){
     if(isset($_SESSION['timesCorrect'])){
         $timesCorrect = $_SESSION['timesCorrect'];
         if($timesCorrect == 0){
-            echo "<h2>* * * *</h2></div>";
+            echo "<h2>+ + - &times;</h2></div>";
         }elseif($timesCorrect == 1){
-            echo "<h2>7 * * *</h2></div>";
+            echo "<h2>7 + - &times;</h2></div>";
         }elseif($timesCorrect == 2){
-            echo "<h2>7 3 * *</h2></div>";
+            echo "<h2>7 3 - &times;</h2></div>";
         }elseif($timesCorrect == 3){
-            echo "<h2>7 3 6 *</h2></div>";
+            echo "<h2>7 3 6 &times;</h2></div>";
         }elseif($timesCorrect == 4){
             $code = "7 3 6 9";
 
