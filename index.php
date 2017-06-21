@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <link rel="shortcut icon" href="afbeeldingen/logo.jpg" type="image/x-icon">
         <link rel="stylesheet" href="css/main.css" type="text/css">
-        <head><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script></head>
+        <head><script src="js/jquery.js"></script></head>
         <title>Antikraak B.V Voor uw beveiliging</title>
     </head>
 
@@ -28,7 +28,7 @@
            <input class="TextField" type="text" name="code" value="" placeholder="Code">
            <br><br>
            <input type="submit" value="Login op het Systeem" class="Button">
-           <button type="button" class="Button Mainframe" style="display: none;"></button>
+           <button type="button" onclick="toMainframe()" class="Button Mainframe" style="display: none;">To mainframe</button>
         </form>
 
         <script src="js/main.js"></script>
