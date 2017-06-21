@@ -13,6 +13,14 @@
                 font-family: "Lucida Sans Unicode";
                 font: 20px;
                 color: white;
+                font-size: 250%;
+            }
+
+            h2{
+                font-family: "Lucida Sans Unicode";
+                font: 20px;
+                color: white;
+                font-size: 175%;
             }
             a{
                 font: 16px Tahoma;
@@ -30,6 +38,7 @@
     </head>
     <body>
         <center><h1>Je krijgt een buisje!</h1>
+                <h2>Kijk onder de tafels!</h2>
         <p><a href="../">Terug naar het inlogscherm</a></p></center>
     </body>
 </html>
