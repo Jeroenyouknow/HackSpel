@@ -27,7 +27,7 @@ function timer() {
     //Get the current Time
     var now = new Date().getTime();
 //Add to the current time 32000 seconds from the start
-    var setDate = (now + 3200000);
+    var setDate = (now + 32000);
 
 
 // Set the date we're counting down to
